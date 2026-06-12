@@ -612,7 +612,7 @@ st.markdown("<hr style='border: 0; border-top: 1px solid rgba(255,255,255,0.06);
 st.markdown("## Interactive Dashboards")
 st.markdown("<p style='color:#94a3b8; font-size:1.1rem; margin-top:-10px; margin-bottom:24px;'>Deep-dive analytics across every dimension of Wayne Enterprises operations</p>", unsafe_allow_html=True)
 
-dash_tabs = st.tabs(["Financial", "Security", "R&D", "Supply Chain", "People", "Cross-Insights"])
+dash_tabs = st.tabs(["Financial", "Security", "R&D", "Supply Chain", "HR", "Cross-Insights"])
 
 # ─── Tab 1: Financial ───
 with dash_tabs[0]:
